@@ -4,7 +4,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of pruebapaquete is to ...
+The goal of pruebapaquete is  un ejercicio de prueba colaborativo y no está pensado para uso en producción.
 
 ## Installation
 
