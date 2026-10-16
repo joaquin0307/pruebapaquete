@@ -11,7 +11,7 @@ License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
 Config/roxygen2/version: 8.1.1
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-URL: https://github.com/joaquin0307/pruebapaquete
+URL: https://github.com/joaquin0307/pruebapaquete, https://joaquin0307.github.io/pruebapaquete/
 BugReports: https://github.com/joaquin0307/pruebapaquete/issues
 Suggests: 
     knitr,
