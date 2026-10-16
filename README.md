@@ -7,7 +7,8 @@
 
 <!-- badges: end -->
 
-The goal of pruebapaquete is to …
+The goal of pruebapaquete is to: distintos tipos de sumas. con numeros
+positivos y negativos.
 
 ## Installation
 
@@ -26,6 +27,10 @@ This is a basic example which shows you how to solve a common problem:
 ``` r
 library(pruebapaquete)
 ## basic example code
+mi_funcion(8,9)
+#> [1] 8.5
+mi_funcion(10,9)
+#> [1] 9.5
 ```
 
 What is special about using `README.Rmd` instead of just `README.md`?
