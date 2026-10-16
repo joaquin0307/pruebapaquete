@@ -1,0 +1,30 @@
+---
+title: "nombre_vineta"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{nombre_vineta}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(pruebapaquete)
+```
+el objetivo de este paquete es sumar dos numeros y dividirlos por dos para asi sacar el promedio 
+```{r}
+mi_funcion(4,8)
+```
+```{r}
+mi_funcion(9,8)
+```
+```{r}
+mi_funcion(-122,-800)
+```
+

@@ -1,9 +1,10 @@
 Package: pruebapaquete
 Title: probando crear un paquete de R
 Version: 0.0.0.9000
-Authors@R: 
-    person("Máximo", "Bustos", , "maximorbustos@gmail.com", role = c("aut"))
-    person ("Joaquin","Larroux","jlarroux@mail.austral.edu.ar", role= c ("cre"))
+Authors@R: c(
+    person("Máximo", "Bustos", , "maximorbustos@gmail.com", role = "aut"),
+    person("Joaquin", "Larroux", , "jlarroux@mail.austral.edu.ar", role = "cre")
+    )
 Description: primer paquete de R.
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
     licenses
@@ -12,3 +13,7 @@ Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 URL: https://github.com/joaquin0307/pruebapaquete
 BugReports: https://github.com/joaquin0307/pruebapaquete/issues
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr

@@ -1,14 +1,18 @@
 
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
 # pruebapaquete
 
 <!-- badges: start -->
+
 <!-- badges: end -->
 
-The goal of pruebapaquete is  un ejercicio de prueba colaborativo y no está pensado para uso en producción.
+The goal of pruebapaquete is to …
 
 ## Installation
 
-You can install the development version of pruebapaquete from [GitHub](https://github.com/) with:
+You can install the development version of pruebapaquete from
+[GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("pak")
@@ -24,3 +28,16 @@ library(pruebapaquete)
 ## basic example code
 ```
 
+What is special about using `README.Rmd` instead of just `README.md`?
+You can include R chunks like so:
+
+``` r
+mi_funcion(3,8)
+#> [1] 5.5
+```
+
+You’ll still need to render `README.Rmd` regularly, to keep `README.md`
+up-to-date. `devtools::build_readme()` is handy for this.
+
+In that case, don’t forget to commit and push the resulting figure
+files, so they display on GitHub and CRAN.
