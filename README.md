@@ -5,6 +5,8 @@
 
 <!-- badges: start -->
 
+[![R-CMD-check](https://github.com/joaquin0307/pruebapaquete/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/joaquin0307/pruebapaquete/actions/workflows/R-CMD-check.yaml)
+[![test-coverage](https://github.com/joaquin0307/pruebapaquete/actions/workflows/test-coverage.yaml/badge.svg)](https://github.com/joaquin0307/pruebapaquete/actions/workflows/test-coverage.yaml)
 <!-- badges: end -->
 
 The goal of pruebapaquete is to: distintos tipos de sumas. con numeros

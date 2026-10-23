@@ -6,14 +6,17 @@ Authors@R: c(
     person("Joaquin", "Larroux", , "jlarroux@mail.austral.edu.ar", role = "cre")
     )
 Description: primer paquete de R.
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    licenses
+License: MIT + file LICENSE
 Config/roxygen2/version: 8.1.1
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 URL: https://github.com/joaquin0307/pruebapaquete, https://joaquin0307.github.io/pruebapaquete/
 BugReports: https://github.com/joaquin0307/pruebapaquete/issues
+Imports: 
+    cli
 Suggests: 
     knitr,
-    rmarkdown
+    rmarkdown,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
 VignetteBuilder: knitr
